@@ -1,0 +1,26 @@
+{
+  "name": "mrlegendapi",
+  "version": "1.0.0",
+  "description": "api for mrlegend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "mr-legend-api v1"
+  },
+  "author": "mr wii",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "boom": "^7.3.0",
+    "fastify": "^2.11.0",
+    "fastify-cors": "^3.0.1",
+    "fastify-swagger": "^2.5.0",
+    "graphql": "^14.6.0",
+    "mongoose": "^5.8.11",
+    "nodemon": "^2.0.2"
+  }
+}
